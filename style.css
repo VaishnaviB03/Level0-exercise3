@@ -21,6 +21,7 @@ hr{
 }
 
 .container-centre{
+    padding: 0.5rem;
     max-width: 500px;
     margin: auto;
 }
@@ -28,8 +29,10 @@ hr{
 /* Links */
 
 .link{
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin-top: 1rem;
 }
 
 
@@ -120,6 +123,11 @@ header .header-heading{
     padding: 2rem 1rem;
     text-align: center;
     border-top-right-radius:1rem ;
+}
+
+.footer-heading{
+    font-size: larger;
+    font-weight: bold;
 }
 
 .footer .link{
