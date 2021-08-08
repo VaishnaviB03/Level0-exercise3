@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
+
+body{
+    font-family: 'STIX Two Text', serif;
+}
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.container-centre{
+    max-width: 500px;
+    margin: auto;
+}
+
