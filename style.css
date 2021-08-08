@@ -1,8 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
 
+:root{
+    --primary-color: #3F3D56;
+}
+
 body{
     font-family: 'STIX Two Text', serif;
 }
+
+hr{
+    margin: 2rem 0rem ;
+}
+
+/* Container */
 
 .container{
     padding-left: 1rem;
@@ -14,3 +24,91 @@ body{
     margin: auto;
 }
 
+/* Links */
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+
+.primary-link{
+    background-color: var(--primary-color);
+    color:white;
+    border-radius: 0.5rem;
+}
+
+.secondary-link{
+    border: 1px solid #3F3D56;
+    border-radius: 0.5rem;
+}
+
+.non-bullet{
+    list-style: none;
+}
+
+.inline{
+    display: inline;
+    padding: 0rem 0.5rem;
+}
+
+/* Navigation */
+
+.navigation{
+    background-color:#8DAAD4;
+    color: #3F3D56;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.navigation .lib{
+    font-weight: bold;
+    text-decoration: underline;
+
+}
+
+.navigation .nav-items{
+    text-align: right;
+}
+
+.nav-link{
+    color:#3F3D56;
+    text-decoration: none;
+    text-align: right;
+}
+
+/* Header */
+
+.header{
+    padding:2rem
+}
+
+.header .header-image{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+}
+
+header .header-heading{
+    font-size: large;
+    color: #788DB2;
+    padding-top: 1rem;
+    text-align: center;
+}
+
+/* Sections */
+
+.section{
+    padding: 1rem;
+}
+
+.section h1{
+    text-align: center;
+    
+}
+
+.ow{
+    background-color: #E2E8F0;
+}
+
+/* Footer */
