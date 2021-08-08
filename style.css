@@ -6,6 +6,7 @@
 
 body{
     font-family: 'STIX Two Text', serif;
+    margin: 0px;
 }
 
 hr{
@@ -42,6 +43,8 @@ hr{
     border: 1px solid #3F3D56;
     border-radius: 0.5rem;
 }
+
+/* List */
 
 .non-bullet{
     list-style: none;
@@ -112,3 +115,14 @@ header .header-heading{
 }
 
 /* Footer */
+.footer{
+    background-color:#8DAAD4;
+    padding: 2rem 1rem;
+    text-align: center;
+    border-top-right-radius:1rem ;
+}
+
+.footer .link{
+    color:  #3F3D56;
+    
+}
